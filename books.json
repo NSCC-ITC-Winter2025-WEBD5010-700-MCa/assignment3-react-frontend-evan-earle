@@ -1,463 +1,15 @@
 {
   "books": [
     {
-      "id": 1,
-      "title": "The Edge of Tomorrow",
-      "author": "Mary Collins",
-      "published_year": 1999,
-      "genre": "Thriller",
-      "isbn": "6872707809269",
-      "ratings": [2, 2, 4, 4],
-      "reviews": [
-        {
-          "user": "Maria Harris",
-          "comment": "This is a review for The Hidden Path.",
-          "rating": 4,
-          "date": "31-1-2022"
-        },
-        {
-          "user": "Elizabeth Nelson",
-          "comment": "This is a review for The Last Embrace.",
-          "rating": 2,
-          "date": "14-5-2020"
-        }
-      ],
-      "publisher": {
-        "name": "Simon & Schuster",
-        "address": {
-          "street": "951 Pine Rd",
-          "city": "Berlin",
-          "country": "USA"
-        },
-        "contact": {
-          "phone": "+1-579-4902887",
-          "email": "contact@macmillan.com"
-        }
-      },
-      "price": {
-        "currency": "USD",
-        "amount": 13.89
-      }
-    },
-    {
-      "id": 2,
-      "title": "Glimmer of Light",
-      "author": "Lisa Clark",
-      "published_year": 1991,
-      "genre": "Historical",
-      "isbn": "4967891562763",
-      "ratings": [5, 1, 5, 3],
-      "reviews": [
-        {
-          "user": "Steven Murphy",
-          "comment": "This is a review for Whispers in the Dark.",
-          "rating": 5,
-          "date": "17-6-2023"
-        },
-        {
-          "user": "Thomas King",
-          "comment": "This is a review for Through the Ashes.",
-          "rating": 1,
-          "date": "1-3-2020"
-        },
-        {
-          "user": "Michael Mitchell",
-          "comment": "This is a review for Storm's End.",
-          "rating": 2,
-          "date": "29-1-2021"
-        }
-      ],
-      "publisher": {
-        "name": "Hachette",
-        "address": {
-          "street": "728 Broadway",
-          "city": "Paris",
-          "country": "Germany"
-        },
-        "contact": {
-          "phone": "+1-437-3476966",
-          "email": "contact@macmillan.com"
-        }
-      },
-      "price": {
-        "currency": "EUR",
-        "amount": 21.77
-      }
-    },
-    {
-      "id": 3,
-      "title": "From the Ashes",
-      "author": "Cynthia Rogers",
-      "published_year": 1920,
-      "genre": "Science Fiction",
-      "isbn": "7320658583901",
-      "ratings": [5, 4],
-      "reviews": [
-        {
-          "user": "Mary Collins",
-          "comment": "This is a review for The Forgotten Kingdom.",
-          "rating": 5,
-          "date": "27-11-2020"
-        },
-        {
-          "user": "Sophia Bennett",
-          "comment": "This is a review for Beyond the Stars.",
-          "rating": 5,
-          "date": "15-1-2022"
-        }
-      ],
-      "publisher": {
-        "name": "Macmillan",
-        "address": {
-          "street": "431 Oak Ave",
-          "city": "Paris",
-          "country": "USA"
-        },
-        "contact": {
-          "phone": "+1-292-1772251",
-          "email": "contact@harpercollins.com"
-        }
-      },
-      "price": {
-        "currency": "USD",
-        "amount": 40.6
-      }
-    },
-    {
-      "id": 4,
-      "title": "Chronicles of the Past",
-      "author": "Rachel Scott",
-      "published_year": 1913,
-      "genre": "Thriller",
-      "isbn": "4729356312494",
-      "ratings": [4],
-      "reviews": [
-        {
-          "user": "Amanda Lewis",
-          "comment": "This is a review for The Path Less Traveled.",
-          "rating": 1,
-          "date": "6-10-2022"
-        },
-        {
-          "user": "Steven Mitchell",
-          "comment": "This is a review for Journey to the Unknown.",
-          "rating": 3,
-          "date": "11-5-2020"
-        }
-      ],
-      "publisher": {
-        "name": "Macmillan",
-        "address": {
-          "street": "439 Main St",
-          "city": "Toronto",
-          "country": "USA"
-        },
-        "contact": {
-          "phone": "+1-704-5781514",
-          "email": "contact@macmillan.com"
-        }
-      },
-      "price": {
-        "currency": "USD",
-        "amount": 22.4
-      }
-    },
-    {
-      "id": 5,
-      "title": "Secrets of the Forest",
-      "author": "Thomas King",
-      "published_year": 1965,
-      "genre": "Mystery",
-      "isbn": "6702732680751",
-      "ratings": [3, 5],
-      "reviews": [
-        {
-          "user": "Patricia Cooper",
-          "comment": "This is a review for Journey to the Unknown.",
-          "rating": 5,
-          "date": "6-5-2022"
-        },
-        {
-          "user": "Deborah Wright",
-          "comment": "This is a review for The Flame of Courage.",
-          "rating": 5,
-          "date": "18-10-2021"
-        }
-      ],
-      "publisher": {
-        "name": "HarperCollins",
-        "address": {
-          "street": "521 Oak Ave",
-          "city": "Paris",
-          "country": "France"
-        },
-        "contact": {
-          "phone": "+1-988-9207963",
-          "email": "contact@hachette.com"
-        }
-      },
-      "price": {
-        "currency": "EUR",
-        "amount": 48.9
-      }
-    },
-    {
-      "id": 6,
-      "title": "Lost in the Abyss",
-      "author": "Thomas King",
-      "published_year": 1986,
-      "genre": "Historical",
-      "isbn": "8571557156054",
-      "ratings": [5, 5, 3, 1, 1],
-      "reviews": [
-        {
-          "user": "Jane Smith",
-          "comment": "This is a review for Wings of Destiny.",
-          "rating": 5,
-          "date": "13-1-2023"
-        }
-      ],
-      "publisher": {
-        "name": "Hachette",
-        "address": {
-          "street": "104 Main St",
-          "city": "Berlin",
-          "country": "Canada"
-        },
-        "contact": {
-          "phone": "+1-615-1408233",
-          "email": "contact@simonandschuster.com"
-        }
-      },
-      "price": {
-        "currency": "GBP",
-        "amount": 19.13
-      }
-    },
-    {
-      "id": 7,
-      "title": "In the Heart of the Storm",
-      "author": "Michael Brown",
-      "published_year": 1971,
-      "genre": "Thriller",
-      "isbn": "8562232556610",
-      "ratings": [2, 5],
-      "reviews": [
-        {
-          "user": "Mary Collins",
-          "comment": "This is a review for The Black Horizon.",
-          "rating": 5,
-          "date": "18-7-2023"
-        }
-      ],
-      "publisher": {
-        "name": "Simon & Schuster",
-        "address": {
-          "street": "521 Broadway",
-          "city": "Berlin",
-          "country": "UK"
-        },
-        "contact": {
-          "phone": "+1-899-4773655",
-          "email": "contact@hachette.com"
-        }
-      },
-      "price": {
-        "currency": "EUR",
-        "amount": 13.59
-      }
-    },
-    {
-      "id": 8,
-      "title": "The Forgotten Kingdom",
-      "author": "Andrew Walker",
-      "published_year": 1950,
-      "genre": "Historical",
-      "isbn": "8297375328699",
-      "ratings": [1, 5, 4, 3, 1],
-      "reviews": [
-        {
-          "user": "William Taylor",
-          "comment": "This is a review for The Path Less Traveled.",
-          "rating": 5,
-          "date": "9-9-2021"
-        }
-      ],
-      "publisher": {
-        "name": "HarperCollins",
-        "address": {
-          "street": "899 Pine Rd",
-          "city": "New York",
-          "country": "France"
-        },
-        "contact": {
-          "phone": "+1-822-3871421",
-          "email": "contact@hachette.com"
-        }
-      },
-      "price": {
-        "currency": "GBP",
-        "amount": 15.57
-      }
-    },
-    {
-      "id": 9,
-      "title": "Wings of Destiny",
-      "author": "Patricia Cooper",
-      "published_year": 2008,
-      "genre": "Mystery",
-      "isbn": "6937864570157",
-      "ratings": [1],
-      "reviews": [
-        {
-          "user": "Joshua Gray",
-          "comment": "This is a review for Rise of the Phoenix.",
-          "rating": 2,
-          "date": "21-5-2023"
-        }
-      ],
-      "publisher": {
-        "name": "Penguin Random House",
-        "address": {
-          "street": "158 Broadway",
-          "city": "New York",
-          "country": "Germany"
-        },
-        "contact": {
-          "phone": "+1-475-7703145",
-          "email": "contact@penguin.com"
-        }
-      },
-      "price": {
-        "currency": "EUR",
-        "amount": 38.29
-      }
-    },
-    {
-      "id": 10,
-      "title": "Beyond the Stars",
-      "author": "Emily Davis",
-      "published_year": 2014,
-      "genre": "Thriller",
-      "isbn": "8215992444243",
-      "ratings": [3, 5, 5, 1, 2],
-      "reviews": [
-        {
-          "user": "Matthew Roberts",
-          "comment": "This is a review for Nightfall Chronicles.",
-          "rating": 3,
-          "date": "7-9-2023"
-        },
-        {
-          "user": "Paul White",
-          "comment": "This is a review for The Blackened Sky.",
-          "rating": 4,
-          "date": "1-5-2021"
-        },
-        {
-          "user": "Barbara Perez",
-          "comment": "This is a review for The Edge of Forever.",
-          "rating": 4,
-          "date": "3-3-2023"
-        }
-      ],
-      "publisher": {
-        "name": "HarperCollins",
-        "address": {
-          "street": "658 Pine Rd",
-          "city": "Berlin",
-          "country": "Germany"
-        },
-        "contact": {
-          "phone": "+1-659-2834898",
-          "email": "contact@macmillan.com"
-        }
-      },
-      "price": {
-        "currency": "EUR",
-        "amount": 46.58
-      }
-    },
-    {
-      "id": 11,
-      "title": "The Hidden Path",
-      "author": "Samantha Moore",
-      "published_year": 1918,
-      "genre": "Science Fiction",
-      "isbn": "3245254018907",
-      "ratings": [3, 3, 1],
-      "reviews": [
-        {
-          "user": "James Anderson",
-          "comment": "This is a review for Out of Time.",
-          "rating": 2,
-          "date": "24-2-2020"
-        },
-        {
-          "user": "James Anderson",
-          "comment": "This is a review for The Edge of Forever.",
-          "rating": 5,
-          "date": "11-4-2023"
-        }
-      ],
-      "publisher": {
-        "name": "Simon & Schuster",
-        "address": {
-          "street": "741 Oak Ave",
-          "city": "New York",
-          "country": "Germany"
-        },
-        "contact": {
-          "phone": "+1-698-1948064",
-          "email": "contact@penguin.com"
-        }
-      },
-      "price": {
-        "currency": "GBP",
-        "amount": 17.92
-      }
-    },
-    {
-      "id": 12,
-      "title": "The Edge of Tomorrow",
-      "author": "Betty Turner",
-      "published_year": 1902,
-      "genre": "Mystery",
-      "isbn": "9540835552129",
-      "ratings": [2, 4, 3, 5, 2],
-      "reviews": [
-        {
-          "user": "Steven Murphy",
-          "comment": "This is a review for In the Heart of the Storm.",
-          "rating": 3,
-          "date": "30-6-2023"
-        }
-      ],
-      "publisher": {
-        "name": "Hachette",
-        "address": {
-          "street": "181 Oak Ave",
-          "city": "London",
-          "country": "France"
-        },
-        "contact": {
-          "phone": "+1-212-1469379",
-          "email": "contact@simonandschuster.com"
-        }
-      },
-      "price": {
-        "currency": "GBP",
-        "amount": 46.35
-      }
-    },
-    {
-      "id": 13,
+      "id": "13",
       "title": "The Silent Promise",
       "author": "Patricia Cooper",
       "published_year": 1929,
       "genre": "Historical",
       "isbn": "8851064501988",
-      "ratings": [4],
+      "ratings": [
+        4
+      ],
       "reviews": [
         {
           "user": "Maria Harris",
@@ -490,13 +42,18 @@
       }
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Rise of the Phoenix",
       "author": "Joshua Gray",
       "published_year": 1989,
       "genre": "Mystery",
       "isbn": "6920396185830",
-      "ratings": [2, 4, 2, 5],
+      "ratings": [
+        2,
+        4,
+        2,
+        5
+      ],
       "reviews": [
         {
           "user": "Richard Reed",
@@ -523,13 +80,18 @@
       }
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "The Hidden Path",
       "author": "David Gonzalez",
       "published_year": 1927,
       "genre": "Historical",
       "isbn": "4685599629002",
-      "ratings": [4, 2, 5, 4],
+      "ratings": [
+        4,
+        2,
+        5,
+        4
+      ],
       "reviews": [
         {
           "user": "Rebecca Hughes",
@@ -562,13 +124,17 @@
       }
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "A Thousand Dreams",
       "author": "Jessica Lee",
       "published_year": 2006,
       "genre": "Historical",
       "isbn": "8668044649929",
-      "ratings": [5, 2, 1],
+      "ratings": [
+        5,
+        2,
+        1
+      ],
       "reviews": [
         {
           "user": "Amanda Lewis",
@@ -595,13 +161,17 @@
       }
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Echoes of Time",
       "author": "David Gonzalez",
       "published_year": 2020,
       "genre": "Thriller",
       "isbn": "7739008593309",
-      "ratings": [5, 2, 1],
+      "ratings": [
+        5,
+        2,
+        1
+      ],
       "reviews": [
         {
           "user": "Steven Murphy",
@@ -628,13 +198,18 @@
       }
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "The Silent War",
       "author": "Christopher Young",
       "published_year": 1996,
       "genre": "Thriller",
       "isbn": "1122059638593",
-      "ratings": [2, 3, 1, 5],
+      "ratings": [
+        2,
+        3,
+        1,
+        5
+      ],
       "reviews": [
         {
           "user": "Rebecca Hughes",
@@ -661,13 +236,19 @@
       }
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "In the Shadow of Giants",
       "author": "Karen Carter",
       "published_year": 2018,
       "genre": "Science Fiction",
       "isbn": "4292545040727",
-      "ratings": [4, 3, 1, 2, 3],
+      "ratings": [
+        4,
+        3,
+        1,
+        2,
+        3
+      ],
       "reviews": [
         {
           "user": "Mary Collins",
@@ -700,13 +281,17 @@
       }
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Echoes of the Heart",
       "author": "Charles Murphy",
       "published_year": 2011,
       "genre": "Thriller",
       "isbn": "3692714018292",
-      "ratings": [5, 2, 4],
+      "ratings": [
+        5,
+        2,
+        4
+      ],
       "reviews": [
         {
           "user": "Paul White",
@@ -745,13 +330,17 @@
       }
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Secrets of the Forest",
       "author": "Andrew Walker",
       "published_year": 1971,
       "genre": "Historical",
       "isbn": "3851685411011",
-      "ratings": [3, 5, 3],
+      "ratings": [
+        3,
+        5,
+        3
+      ],
       "reviews": [
         {
           "user": "Nancy Hall",
@@ -778,13 +367,16 @@
       }
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "The Forgotten Kingdom",
       "author": "Paul White",
       "published_year": 1965,
       "genre": "Historical",
       "isbn": "1169850149127",
-      "ratings": [5, 2],
+      "ratings": [
+        5,
+        2
+      ],
       "reviews": [
         {
           "user": "Michael Mitchell",
@@ -823,13 +415,15 @@
       }
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Distant Shores",
       "author": "Samantha Moore",
       "published_year": 1991,
       "genre": "Thriller",
       "isbn": "3309618395322",
-      "ratings": [4],
+      "ratings": [
+        4
+      ],
       "reviews": [
         {
           "user": "Betty Turner",
@@ -856,13 +450,18 @@
       }
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Whispers of Hope",
       "author": "Helen Cook",
       "published_year": 1974,
       "genre": "Romance",
       "isbn": "5424392049466",
-      "ratings": [5, 1, 3, 1],
+      "ratings": [
+        5,
+        1,
+        3,
+        1
+      ],
       "reviews": [
         {
           "user": "Christopher Young",
@@ -901,13 +500,16 @@
       }
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Beneath the Surface",
       "author": "Joshua Allen",
       "published_year": 2011,
       "genre": "Thriller",
       "isbn": "5979312579609",
-      "ratings": [4, 5],
+      "ratings": [
+        4,
+        5
+      ],
       "reviews": [
         {
           "user": "Mary Collins",
@@ -946,13 +548,15 @@
       }
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "The Blackened Sky",
       "author": "Diana Long",
       "published_year": 1908,
       "genre": "Romance",
       "isbn": "1985387530918",
-      "ratings": [3],
+      "ratings": [
+        3
+      ],
       "reviews": [
         {
           "user": "George Evans",
@@ -979,13 +583,18 @@
       }
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Rise of the Phoenix",
       "author": "Cynthia Rogers",
       "published_year": 1939,
       "genre": "Historical",
       "isbn": "4686852596045",
-      "ratings": [2, 1, 4, 2],
+      "ratings": [
+        2,
+        1,
+        4,
+        2
+      ],
       "reviews": [
         {
           "user": "Paul White",
@@ -1024,13 +633,15 @@
       }
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Nightfall Chronicles",
       "author": "Charles Murphy",
       "published_year": 1964,
       "genre": "Science Fiction",
       "isbn": "6774352773268",
-      "ratings": [3],
+      "ratings": [
+        3
+      ],
       "reviews": [
         {
           "user": "Richard Reed",
@@ -1057,13 +668,19 @@
       }
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Whispers in the Dark",
       "author": "Kimberly Morris",
       "published_year": 1955,
       "genre": "Romance",
       "isbn": "9784372555398",
-      "ratings": [4, 3, 3, 3, 3],
+      "ratings": [
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
       "reviews": [
         {
           "user": "Justin Flores",
@@ -1096,13 +713,18 @@
       }
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Glimmer of Light",
       "author": "Sophia Bennett",
       "published_year": 1981,
       "genre": "Historical",
       "isbn": "9341039515649",
-      "ratings": [1, 2, 5, 1],
+      "ratings": [
+        1,
+        2,
+        5,
+        1
+      ],
       "reviews": [
         {
           "user": "Jane Smith",
@@ -1135,13 +757,17 @@
       }
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Whispers in the Dark",
       "author": "Sarah Johnson",
       "published_year": 1972,
       "genre": "Historical",
       "isbn": "9655698637580",
-      "ratings": [2, 5, 5],
+      "ratings": [
+        2,
+        5,
+        5
+      ],
       "reviews": [
         {
           "user": "Gregory Lee",
@@ -1168,13 +794,16 @@
       }
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "Whispers of Hope",
       "author": "Deborah Wright",
       "published_year": 1956,
       "genre": "Mystery",
       "isbn": "4240566476764",
-      "ratings": [2, 2],
+      "ratings": [
+        2,
+        2
+      ],
       "reviews": [
         {
           "user": "Jane Smith",
@@ -1201,13 +830,16 @@
       }
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "Out of Time",
       "author": "Matthew Roberts",
       "published_year": 2017,
       "genre": "Fiction",
       "isbn": "7260976215258",
-      "ratings": [5, 5],
+      "ratings": [
+        5,
+        5
+      ],
       "reviews": [
         {
           "user": "Brian Baker",
@@ -1240,13 +872,16 @@
       }
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "Journey to the Unknown",
       "author": "Patricia Cooper",
       "published_year": 2008,
       "genre": "Thriller",
       "isbn": "2738805434978",
-      "ratings": [3, 5],
+      "ratings": [
+        3,
+        5
+      ],
       "reviews": [
         {
           "user": "Nancy Hall",
@@ -1279,13 +914,16 @@
       }
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "A Hero's Journey",
       "author": "Steven Mitchell",
       "published_year": 1920,
       "genre": "Fantasy",
       "isbn": "7936357697302",
-      "ratings": [2, 4],
+      "ratings": [
+        2,
+        4
+      ],
       "reviews": [
         {
           "user": "David Gonzalez",
@@ -1312,13 +950,16 @@
       }
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "The Lost World",
       "author": "Brian Baker",
       "published_year": 2001,
       "genre": "Science Fiction",
       "isbn": "6833973658373",
-      "ratings": [5, 5],
+      "ratings": [
+        5,
+        5
+      ],
       "reviews": [
         {
           "user": "John Doe",
@@ -1345,13 +986,16 @@
       }
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "Whispers in the Dark",
       "author": "Maria Harris",
       "published_year": 2021,
       "genre": "Fantasy",
       "isbn": "2041008616224",
-      "ratings": [3, 2],
+      "ratings": [
+        3,
+        2
+      ],
       "reviews": [
         {
           "user": "Steven Mitchell",
@@ -1390,13 +1034,18 @@
       }
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "In the Shadow of Giants",
       "author": "Nancy Hall",
       "published_year": 1941,
       "genre": "Fantasy",
       "isbn": "3395251831182",
-      "ratings": [1, 4, 4, 2],
+      "ratings": [
+        1,
+        4,
+        4,
+        2
+      ],
       "reviews": [
         {
           "user": "Emily Davis",
@@ -1435,13 +1084,16 @@
       }
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "Lost in the Abyss",
       "author": "Steven Mitchell",
       "published_year": 1905,
       "genre": "Fiction",
       "isbn": "5099828560214",
-      "ratings": [3, 3],
+      "ratings": [
+        3,
+        3
+      ],
       "reviews": [
         {
           "user": "Sarah Johnson",
@@ -1468,13 +1120,19 @@
       }
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "The Silent War",
       "author": "Charles Murphy",
       "published_year": 1906,
       "genre": "Fantasy",
       "isbn": "9581926051875",
-      "ratings": [5, 1, 2, 2, 3],
+      "ratings": [
+        5,
+        1,
+        2,
+        2,
+        3
+      ],
       "reviews": [
         {
           "user": "Rebecca Rodriguez",
@@ -1513,13 +1171,18 @@
       }
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "Echoes of the Heart",
       "author": "Paul White",
       "published_year": 1911,
       "genre": "Mystery",
       "isbn": "4768136945072",
-      "ratings": [4, 1, 1, 4],
+      "ratings": [
+        4,
+        1,
+        1,
+        4
+      ],
       "reviews": [
         {
           "user": "James Anderson",
@@ -1552,13 +1215,18 @@
       }
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Nightfall Chronicles",
       "author": "Christopher Young",
       "published_year": 1978,
       "genre": "Romance",
       "isbn": "3397271834765",
-      "ratings": [2, 5, 3, 4],
+      "ratings": [
+        2,
+        5,
+        3,
+        4
+      ],
       "reviews": [
         {
           "user": "Betty Turner",
@@ -1585,13 +1253,16 @@
       }
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "A New Dawn",
       "author": "Patricia Cooper",
       "published_year": 1901,
       "genre": "Science Fiction",
       "isbn": "7809176659109",
-      "ratings": [4, 3],
+      "ratings": [
+        4,
+        3
+      ],
       "reviews": [
         {
           "user": "Daniel Martin",
@@ -1624,13 +1295,17 @@
       }
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "The Edge of Tomorrow",
       "author": "Patricia Cooper",
       "published_year": 1997,
       "genre": "Fiction",
       "isbn": "8423955725882",
-      "ratings": [2, 2, 5],
+      "ratings": [
+        2,
+        2,
+        5
+      ],
       "reviews": [
         {
           "user": "Deborah Wright",
@@ -1663,13 +1338,16 @@
       }
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "In the Heart of the Storm",
       "author": "Christopher Young",
       "published_year": 1901,
       "genre": "Fiction",
       "isbn": "9672865916875",
-      "ratings": [5, 2],
+      "ratings": [
+        5,
+        2
+      ],
       "reviews": [
         {
           "user": "Charles Murphy",
@@ -1702,13 +1380,18 @@
       }
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "A Hero's Journey",
       "author": "Karen Carter",
       "published_year": 2012,
       "genre": "Science Fiction",
       "isbn": "5232327713196",
-      "ratings": [2, 3, 4, 3],
+      "ratings": [
+        2,
+        3,
+        4,
+        3
+      ],
       "reviews": [
         {
           "user": "Richard Reed",
@@ -1735,13 +1418,17 @@
       }
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Love in the City",
       "author": "William Taylor",
       "published_year": 1981,
       "genre": "Fiction",
       "isbn": "3147249022237",
-      "ratings": [2, 2, 4],
+      "ratings": [
+        2,
+        2,
+        4
+      ],
       "reviews": [
         {
           "user": "Emily Davis",
@@ -1768,13 +1455,18 @@
       }
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Chronicles of the Past",
       "author": "Charles Murphy",
       "published_year": 2011,
       "genre": "Thriller",
       "isbn": "7711951261783",
-      "ratings": [2, 2, 5, 5],
+      "ratings": [
+        2,
+        2,
+        5,
+        5
+      ],
       "reviews": [
         {
           "user": "Joshua Gray",
@@ -1807,13 +1499,17 @@
       }
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Chronicles of the Past",
       "author": "Samantha Moore",
       "published_year": 1961,
       "genre": "Historical",
       "isbn": "5353480287858",
-      "ratings": [1, 3, 5],
+      "ratings": [
+        1,
+        3,
+        5
+      ],
       "reviews": [
         {
           "user": "Rachel Scott",
@@ -1840,13 +1536,19 @@
       }
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "The Other Side",
       "author": "Jessica Lee",
       "published_year": 1904,
       "genre": "Historical",
       "isbn": "2752165369691",
-      "ratings": [3, 5, 2, 3, 4],
+      "ratings": [
+        3,
+        5,
+        2,
+        3,
+        4
+      ],
       "reviews": [
         {
           "user": "Michael Brown",

@@ -1,5 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
-import BooksTable from "../components/BooksTable";
+import BooksTable from "../components/books/BooksTable";
+import { Outlet } from "react-router-dom";
 
 const Books = () => {
   const {
@@ -12,6 +13,7 @@ const Books = () => {
       const response = await fetch("http://localhost:3000/books");
       return response.json();
     },
+    //staleTime: Infinity,
   });
 
   if (error) {
@@ -20,6 +22,7 @@ const Books = () => {
 
   return (
     <div>
+      <Outlet />
       <h1 className="text-2xl font-bold">Books</h1>
       {isPending ? <p>Loading...</p> : <BooksTable books={books} />}
     </div>
