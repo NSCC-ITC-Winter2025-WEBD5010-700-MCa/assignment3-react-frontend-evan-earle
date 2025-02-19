@@ -1,8 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
 import BooksTable from "../components/books/BooksTable";
 import { Outlet } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const Books = () => {
+  const location = useLocation();
+
   const {
     isPending,
     error,
@@ -22,9 +25,17 @@ const Books = () => {
 
   return (
     <div>
-      <Outlet />
       <h1 className="text-2xl font-bold">Books</h1>
-      {isPending ? <p>Loading...</p> : <BooksTable books={books} />}
+
+      {location.pathname === "/admin/books" ? (
+        isPending ? (
+          <p>Loading...</p>
+        ) : (
+          <BooksTable books={books} />
+        )
+      ) : (
+        <Outlet />
+      )}
     </div>
   );
 };
