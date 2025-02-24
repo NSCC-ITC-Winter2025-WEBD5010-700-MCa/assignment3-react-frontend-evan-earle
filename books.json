@@ -1,45 +1,11 @@
 {
   "books": [
     {
-      "id": "13",
-      "title": "The Silent Promise",
+      "title": "The Silent Pro",
       "author": "Patricia Cooper",
       "published_year": 1929,
       "genre": "Historical",
-      "isbn": "8851064501988",
-      "ratings": [
-        4
-      ],
-      "reviews": [
-        {
-          "user": "Maria Harris",
-          "comment": "This is a review for The Lost World.",
-          "rating": 2,
-          "date": "4-7-2020"
-        },
-        {
-          "user": "Mary Collins",
-          "comment": "This is a review for The Final Hour.",
-          "rating": 4,
-          "date": "9-10-2020"
-        }
-      ],
-      "publisher": {
-        "name": "Simon & Schuster",
-        "address": {
-          "street": "888 Oak Ave",
-          "city": "Berlin",
-          "country": "UK"
-        },
-        "contact": {
-          "phone": "+1-234-3182492",
-          "email": "contact@penguin.com"
-        }
-      },
-      "price": {
-        "currency": "USD",
-        "amount": 17.82
-      }
+      "id": "13"
     },
     {
       "id": "14",
